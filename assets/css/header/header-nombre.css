@@ -1,0 +1,6 @@
+.header__nombre{
+    display:flex;
+    width: 150px;
+    justify-content: space-between;
+
+}

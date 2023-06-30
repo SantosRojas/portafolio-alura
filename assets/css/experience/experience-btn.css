@@ -1,0 +1,25 @@
+.experiencia__botao--repo{
+    display: flex;
+    padding: 0.75rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border: 1px solid #2A7AE4;
+    color: var(--azul-100, #2A7AE4);
+    font-size: 0.875rem;
+    font-family: Raleway;
+    font-weight: 600;
+}
+
+.experience__botao--demo{
+    display: flex;
+    padding: 0.75rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    background: #2A7AE4;
+    color: #fff;
+    font-size: 0.875rem;
+    font-family: Raleway;
+    font-weight: 600;
+}

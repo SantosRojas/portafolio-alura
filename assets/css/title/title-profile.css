@@ -1,0 +1,17 @@
+.title__profile{
+    width: 98px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:520px){
+    .title__profile{
+        width: 10rem;
+    }
+}
+
+@media screen and (min-width:820px){
+    .title__profile{
+        width: 23rem;
+    }
+}

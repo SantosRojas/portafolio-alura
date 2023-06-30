@@ -1,0 +1,9 @@
+.academic{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: #EAF2FD;
+}
+

@@ -1,0 +1,29 @@
+
+.menu__list{
+    display: none;
+}
+
+@media (min-width: 820px) {
+    .menu__list{
+        display: flex;
+        align-items: center;
+    }
+    .menu__list__item__contato{
+        display: none;
+    }
+    
+    nav{
+        display: flex;
+    }
+    
+    .menu__list__item{
+        padding: 0.5rem 1rem;
+    }
+    
+
+    .menu__list__item:hover{
+        background-color: #eaf2fd;
+        border-radius: .4rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+}

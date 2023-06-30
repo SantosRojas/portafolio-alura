@@ -1,0 +1,23 @@
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+    padding-top: 1rem;
+}
+
+.experience__text{
+    color: #464646;
+    font-size: 0.875rem;
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+.experience__title{ 
+    color: #464646;
+    font-size: 1rem;
+    font-family: Raleway;
+    font-weight: 700;
+}
+

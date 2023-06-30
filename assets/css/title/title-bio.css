@@ -1,0 +1,17 @@
+.title__bio {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #464646;
+    font-size: 1.375rem;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media screen and (min-width:820px){
+    .title__bio{
+        font-size: 3.25rem;
+    }
+}

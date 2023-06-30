@@ -1,0 +1,6 @@
+.experience__description{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}

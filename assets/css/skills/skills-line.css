@@ -1,0 +1,22 @@
+.skills__line{
+    display: grid;
+    width: calc(100% - 32px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+@media screen and (min-width:420px) {
+    
+    .skills__line{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (min-width: 820px){
+    .skills__line{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+    }
+}
